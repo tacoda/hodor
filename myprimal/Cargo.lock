@@ -15,6 +15,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "65043da274378d68241eb9a8f8f8aa54e349136f7b8e12f63e3ef44043cc30e1"
 
 [[package]]
+name = "myprimal"
+version = "0.1.0"
+dependencies = [
+ "primal",
+]
+
+[[package]]
 name = "num-integer"
 version = "0.1.44"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -77,13 +84,6 @@ dependencies = [
  "primal-bit",
  "primal-estimate",
  "smallvec",
-]
-
-[[package]]
-name = "prime_sieve"
-version = "0.1.0"
-dependencies = [
- "primal",
 ]
 
 [[package]]
